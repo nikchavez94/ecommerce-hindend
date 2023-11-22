@@ -12,7 +12,7 @@ Category.init(
       type: DataTypes.INTEGER, 
       allowNull: false,
       primaryKey: true,
-      autoIncrement:this.truncate
+      autoIncrement: true
     },
     //Category_name has: a string datatype, and false allowNull
     category_name: {
